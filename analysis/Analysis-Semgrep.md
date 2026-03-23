@@ -77,7 +77,7 @@ La observación crucial es que estas tres ramas son bloques #ifdef mutuamente ex
 
 Ambos son falsos positivos. La plataforma solo puede compilar una de las tres ramas. No existe una ruta en el código donde se libere memoria y luego se vuelva a pasar a _aligned_free o actual_base_address.
 
-## Alerta 2 — CWE-676: Use of Potentially Dangerous Function (strncpy) in opencl.c line 259
+## Alerta 3 — CWE-676: Use of Potentially Dangerous Function (strncpy) in opencl.c line 259
 
 La línea marcada dentro de DumpProfileData() es:
 
