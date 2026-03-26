@@ -1,0 +1,115 @@
+magick/memory.c:83: [information] missingInclude | CWE-0 | Include file: "magick/studio.h" not found.
+magick/memory.c:84: [information] missingInclude | CWE-0 | Include file: "magick/blob.h" not found.
+magick/memory.c:85: [information] missingInclude | CWE-0 | Include file: "magick/blob-private.h" not found.
+magick/memory.c:86: [information] missingInclude | CWE-0 | Include file: "magick/exception.h" not found.
+magick/memory.c:87: [information] missingInclude | CWE-0 | Include file: "magick/exception-private.h" not found.
+magick/memory.c:88: [information] missingInclude | CWE-0 | Include file: "magick/image-private.h" not found.
+magick/memory.c:89: [information] missingInclude | CWE-0 | Include file: "magick/memory_.h" not found.
+magick/memory.c:90: [information] missingInclude | CWE-0 | Include file: "magick/memory-private.h" not found.
+magick/memory.c:91: [information] missingInclude | CWE-0 | Include file: "magick/policy.h" not found.
+magick/memory.c:92: [information] missingInclude | CWE-0 | Include file: "magick/random_.h" not found.
+magick/memory.c:93: [information] missingInclude | CWE-0 | Include file: "magick/resource_.h" not found.
+magick/memory.c:94: [information] missingInclude | CWE-0 | Include file: "magick/semaphore.h" not found.
+magick/memory.c:95: [information] missingInclude | CWE-0 | Include file: "magick/string_.h" not found.
+magick/memory.c:96: [information] missingInclude | CWE-0 | Include file: "magick/string-private.h" not found.
+magick/memory.c:97: [information] missingInclude | CWE-0 | Include file: "magick/utility-private.h" not found.
+magick/memory.c:1411: [warning] uselessAssignmentPtrArg | CWE-398 | Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?
+magick/memory.c:132: [style] unusedStructMember | CWE-563 | struct member '_DataSegmentInfo::allocation' is never used.
+magick/memory.c:133: [style] unusedStructMember | CWE-563 | struct member '_DataSegmentInfo::bound' is never used.
+magick/memory.c:142: [style] unusedStructMember | CWE-563 | struct member '_DataSegmentInfo::previous' is never used.
+magick/memory.c:143: [style] unusedStructMember | CWE-563 | struct member '_DataSegmentInfo::next' is never used.
+magick/memory.c:185: [style] unusedStructMember | CWE-563 | struct member '_MemoryPool::allocation' is never used.
+magick/memory.c:188: [style] unusedStructMember | CWE-563 | struct member '_MemoryPool::blocks' is never used.
+magick/memory.c:191: [style] unusedStructMember | CWE-563 | struct member '_MemoryPool::number_segments' is never used.
+magick/memory.c:736: [style] unreadVariable | CWE-563 | Variable 'value' is assigned a value that is never used.
+magick/memory.c:1063: [style] unreadVariable | CWE-563 | Variable 'value' is assigned a value that is never used.
+magick/memory.c:1411: [style] unreadVariable | CWE-563 | Variable 'memory' is assigned a value that is never used.
+magick/memory.c:1471: [style] unreadVariable | CWE-563 | Variable 'memory' is assigned a value that is never used.
+magick/memory.c:1623: [style] unreadVariable | CWE-563 | Variable 'property' is assigned a value that is never used.
+magick/memory.c:1427: [warning] uselessAssignmentPtrArg | CWE-398 | Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?
+magick/memory.c:1427: [style] unreadVariable | CWE-563 | Variable 'memory' is assigned a value that is never used.
+magick/opencl.c:43: [information] missingInclude | CWE-0 | Include file: "magick/studio.h" not found.
+magick/opencl.c:44: [information] missingInclude | CWE-0 | Include file: "magick/artifact.h" not found.
+magick/opencl.c:45: [information] missingInclude | CWE-0 | Include file: "magick/cache.h" not found.
+magick/opencl.c:46: [information] missingInclude | CWE-0 | Include file: "magick/cache-private.h" not found.
+magick/opencl.c:47: [information] missingInclude | CWE-0 | Include file: "magick/color.h" not found.
+magick/opencl.c:48: [information] missingInclude | CWE-0 | Include file: "magick/compare.h" not found.
+magick/opencl.c:49: [information] missingInclude | CWE-0 | Include file: "magick/constitute.h" not found.
+magick/opencl.c:50: [information] missingInclude | CWE-0 | Include file: "magick/distort.h" not found.
+magick/opencl.c:51: [information] missingInclude | CWE-0 | Include file: "magick/draw.h" not found.
+magick/opencl.c:52: [information] missingInclude | CWE-0 | Include file: "magick/effect.h" not found.
+magick/opencl.c:53: [information] missingInclude | CWE-0 | Include file: "magick/exception.h" not found.
+magick/opencl.c:54: [information] missingInclude | CWE-0 | Include file: "magick/exception-private.h" not found.
+magick/opencl.c:55: [information] missingInclude | CWE-0 | Include file: "magick/fx.h" not found.
+magick/opencl.c:56: [information] missingInclude | CWE-0 | Include file: "magick/gem.h" not found.
+magick/opencl.c:57: [information] missingInclude | CWE-0 | Include file: "magick/geometry.h" not found.
+magick/opencl.c:58: [information] missingInclude | CWE-0 | Include file: "magick/image.h" not found.
+magick/opencl.c:59: [information] missingInclude | CWE-0 | Include file: "magick/image-private.h" not found.
+magick/opencl.c:60: [information] missingInclude | CWE-0 | Include file: "magick/layer.h" not found.
+magick/opencl.c:61: [information] missingInclude | CWE-0 | Include file: "magick/locale_.h" not found.
+magick/opencl.c:62: [information] missingInclude | CWE-0 | Include file: "magick/mime-private.h" not found.
+magick/opencl.c:63: [information] missingInclude | CWE-0 | Include file: "magick/memory_.h" not found.
+magick/opencl.c:64: [information] missingInclude | CWE-0 | Include file: "magick/memory-private.h" not found.
+magick/opencl.c:65: [information] missingInclude | CWE-0 | Include file: "magick/monitor.h" not found.
+magick/opencl.c:66: [information] missingInclude | CWE-0 | Include file: "magick/montage.h" not found.
+magick/opencl.c:67: [information] missingInclude | CWE-0 | Include file: "magick/morphology.h" not found.
+magick/opencl.c:68: [information] missingInclude | CWE-0 | Include file: "magick/nt-base.h" not found.
+magick/opencl.c:69: [information] missingInclude | CWE-0 | Include file: "magick/nt-base-private.h" not found.
+magick/opencl.c:70: [information] missingInclude | CWE-0 | Include file: "magick/opencl.h" not found.
+magick/opencl.c:71: [information] missingInclude | CWE-0 | Include file: "magick/opencl-private.h" not found.
+magick/opencl.c:72: [information] missingInclude | CWE-0 | Include file: "magick/option.h" not found.
+magick/opencl.c:73: [information] missingInclude | CWE-0 | Include file: "magick/policy.h" not found.
+magick/opencl.c:74: [information] missingInclude | CWE-0 | Include file: "magick/property.h" not found.
+magick/opencl.c:75: [information] missingInclude | CWE-0 | Include file: "magick/quantize.h" not found.
+magick/opencl.c:76: [information] missingInclude | CWE-0 | Include file: "magick/quantum.h" not found.
+magick/opencl.c:77: [information] missingInclude | CWE-0 | Include file: "magick/random_.h" not found.
+magick/opencl.c:78: [information] missingInclude | CWE-0 | Include file: "magick/random-private.h" not found.
+magick/opencl.c:79: [information] missingInclude | CWE-0 | Include file: "magick/resample.h" not found.
+magick/opencl.c:80: [information] missingInclude | CWE-0 | Include file: "magick/resource_.h" not found.
+magick/opencl.c:81: [information] missingInclude | CWE-0 | Include file: "magick/splay-tree.h" not found.
+magick/opencl.c:82: [information] missingInclude | CWE-0 | Include file: "magick/semaphore.h" not found.
+magick/opencl.c:83: [information] missingInclude | CWE-0 | Include file: "magick/statistic.h" not found.
+magick/opencl.c:84: [information] missingInclude | CWE-0 | Include file: "magick/string_.h" not found.
+magick/opencl.c:85: [information] missingInclude | CWE-0 | Include file: "magick/token.h" not found.
+magick/opencl.c:86: [information] missingInclude | CWE-0 | Include file: "magick/utility.h" not found.
+magick/opencl.c:87: [information] missingInclude | CWE-0 | Include file: "magick/utility-private.h" not found.
+magick/opencl.c:90: [information] missingInclude | CWE-0 | Include file: "CLPerfMarker.h" not found.
+magick/opencl.c:2065: [style] redundantAssignment | CWE-563 | Variable 'status' is reassigned a value before the old one has been used.
+magick/opencl.c:2131: [style] redundantAssignment | CWE-563 | Variable 'currentPosition' is reassigned a value before the old one has been used.
+magick/opencl.c:881: [style] variableScope | CWE-398 | The scope of the variable 'i' can be reduced.
+magick/opencl.c:986: [style] unsignedLessThanZero | CWE-570 | Checking if unsigned expression 'length=ftell(fileHandle)' is less than zero.
+magick/opencl.c:1408: [style] shadowVariable | CWE-398 | Local variable 'status' shadows outer variable
+magick/opencl.c:2146: [style] constParameterPointer | CWE-398 | Parameter 'profile' can be declared as pointer to const
+magick/opencl.c:909: [style] unreadVariable | CWE-563 | Variable 'program_sizes' is assigned a value that is never used.
+magick/opencl.c:942: [style] unreadVariable | CWE-563 | Variable 'file' is assigned a value that is never used.
+magick/opencl.c:2498: [style] unreadVariable | CWE-563 | Variable 'events' is assigned a value that is never used.
+magick/opencl.c:2930: [style] unreadVariable | CWE-563 | Variable 'home' is assigned a value that is never used.
+magick/opencl.c:2975: [style] unreadVariable | CWE-563 | Variable 'home' is assigned a value that is never used.
+magick/opencl.c:96: [information] missingInclude | CWE-0 | Include file: "ltdl.h" not found.
+magick/opencl.c:474: [style] unreadVariable | CWE-563 | Variable 'status' is assigned a value that is never used.
+magick/opencl.c:2844: [style] redundantAssignment | CWE-563 | Variable 'status' is reassigned a value before the old one has been used.
+magick/opencl.c:2992: [style] variableScope | CWE-398 | The scope of the variable 'log' can be reduced.
+magick/opencl.c:2997: [style] variableScope | CWE-398 | The scope of the variable 'allocSize' can be reduced.
+magick/memory.c:706: [style] unusedFunction | CWE-561 | The function 'AcquireVirtualMemory' is never used.
+magick/memory.c:838: [style] unusedFunction | CWE-561 | The function 'CopyMagickMemory' is never used.
+magick/memory.c:886: [style] unusedFunction | CWE-561 | The function 'DestroyMagickMemory' is never used.
+magick/memory.c:1014: [style] unusedFunction | CWE-561 | The function 'GetMagickMemoryMethods' is never used.
+magick/memory.c:1091: [style] unusedFunction | CWE-561 | The function 'GetVirtualMemoryBlob' is never used.
+magick/memory.c:1294: [style] unusedFunction | CWE-561 | The function 'ResetMagickMemory' is never used.
+magick/memory.c:1326: [style] unusedFunction | CWE-561 | The function 'ResetMaxMemoryRequest' is never used.
+magick/memory.c:1349: [style] unusedFunction | CWE-561 | The function 'ResetVirtualAnonymousMemory' is never used.
+magick/memory.c:1461: [style] unusedFunction | CWE-561 | The function 'ResizeQuantumMemory' is never used.
+magick/memory.c:1506: [style] unusedFunction | CWE-561 | The function 'SetMagickAlignedMemoryMethods' is never used.
+magick/memory.c:1545: [style] unusedFunction | CWE-561 | The function 'SetMagickMemoryMethods' is never used.
+magick/opencl.c:190: [style] unusedFunction | CWE-561 | The function 'RecordProfileData' is never used.
+magick/opencl.c:581: [style] unusedFunction | CWE-561 | The function 'SetDefaultOpenCLEnv' is never used.
+magick/opencl.c:834: [style] unusedFunction | CWE-561 | The function 'GetOpenCLContext' is never used.
+magick/opencl.c:1522: [style] unusedFunction | CWE-561 | The function 'AcquireOpenCLCommandQueue' is never used.
+magick/opencl.c:1576: [style] unusedFunction | CWE-561 | The function 'RelinquishOpenCLCommandQueue' is never used.
+magick/opencl.c:1634: [style] unusedFunction | CWE-561 | The function 'AcquireOpenCLKernel' is never used.
+magick/opencl.c:1674: [style] unusedFunction | CWE-561 | The function 'RelinquishOpenCLKernel' is never used.
+magick/opencl.c:1709: [style] unusedFunction | CWE-561 | The function 'GetOpenCLDeviceLocalMemorySize' is never used.
+magick/opencl.c:2808: [style] unusedFunction | CWE-561 | The function 'OpenCLThrowMagickException' is never used.
+magick/opencl.c:2987: [style] unusedFunction | CWE-561 | The function 'OpenCLLog' is never used.
+magick/opencl.c:3029: [style] unusedFunction | CWE-561 | The function 'OpenCLTerminus' is never used.
+nofile:0: [information] checkersReport | CWE-0 | Active checkers: 113/592 (use --checkers-report=<filename> to see details)
